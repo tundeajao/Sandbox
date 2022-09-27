@@ -1,3 +1,4 @@
+/**
 var greet2 = require('./greet.js')
 
 function Greet() {
@@ -11,4 +12,16 @@ function SendGreet(fn){
 SendGreet(Greet);
 
 greet2();
+**/
 
+person = {
+    firstname: 'John',
+    lastname: 'Doe',
+    greet: function () {
+        console.log('Hello, ' + this.firstname + ' ' + this.lastname);
+    }
+};
+
+person.greet();
+
+console.log(person['firstname']);
