@@ -1,3 +1,11 @@
+(function() {
+    var firstname = 'John';
+    console.log(firstname);
+}());
+
+var firstname = 'Jane';
+console.log(firstname);
+
 /**
 var greet2 = require('./greet.js')
 
@@ -28,6 +36,7 @@ person.greet();
 console.log(person['firstname']);
 **/
 
+/**
 function Person (firstname, lastname) {
     this.firstname = firstname;
     this.lastname = lastname;
@@ -46,3 +55,4 @@ jane.greet();
 console.log(john.__proto__);
 console.log(jane.__proto__);
 console.log(john.__proto__ === jane.__proto__);
+**/
