@@ -1,7 +1,7 @@
-(function() {
+(function(lastname) {
     var firstname = 'John';
-    console.log(firstname);
-}());
+    console.log(firstname + ' ' + lastname);
+}('Doe'));
 
 var firstname = 'Jane';
 console.log(firstname);
