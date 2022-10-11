@@ -1,14 +1,15 @@
+/*
 (function(lastname) {
     var firstname = 'John';
     console.log(firstname + ' ' + lastname);
 }('Doe'));
+*/
+//var firstname = 'Jane';
+//console.log(firstname);
 
-var firstname = 'Jane';
-console.log(firstname);
 
-/**
 var greet2 = require('./greet.js')
-
+/**
 function Greet() {
     console.log('Hi Tunde');
 }
@@ -18,9 +19,9 @@ function SendGreet(fn){
 }
 
 SendGreet(Greet);
-
-greet2();
 **/
+greet2();
+
 
 /**
 person = {
